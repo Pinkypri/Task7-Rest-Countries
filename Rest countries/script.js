@@ -28,7 +28,7 @@ request.onload = () =>{
     div.appendChild(h5);
     const span=document.createElement("span");
     span.classList.add("badge" ,"bg-success");
-    span.setAttribute("style","width:120px;height:20px");
+    span.setAttribute("style","width:150px;height:20px");
     span.innerHTML=element.capital;
     h5.appendChild(span);
     const h51=document.createElement("p");
